@@ -13,19 +13,30 @@
                     <li>Reason why the path needs to be changed</li>
                     <li>Reason wny the path needs to be changed</li>
                 </ul>
-
-                <ul>
-                    
-                </ul>
             </div>
-            
+        </div>
+
+        <div class="column">
+            <div class="column-inner">
+                <h2>Current Path Routing</h2>
+                <img src="" alt="" class="route-image">
+                <ul>
+                    <li>Disadvantage of path</li>
+                    <li>Disadvantage of path</li>
+                    <li>Disadvantage of path</li>
+                </ul>
+
+                <h2> New path routing</h2>
+            </div>
         </div>
 </section>
 
 <style>
     section {
         width: auto;
-        height: 800px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
         /* background-image: url("/assets/img/bates2.jpg");
         background-size: cover;
         background-position: center;
@@ -56,4 +67,8 @@
         padding: 0% 5%;
     }
 
+    .route-image {
+        height: 400px;
+        background: white;
+    }
 </style>
