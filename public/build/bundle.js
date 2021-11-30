@@ -479,16 +479,16 @@ var app = (function () {
     			t1 = space();
     			a = element("a");
     			a.textContent = "Sign the Petition!";
-    			attr_dev(h1, "class", "svelte-14tj696");
+    			attr_dev(h1, "class", "svelte-3qo9tz");
     			add_location(h1, file$1, 7, 12, 190);
     			attr_dev(a, "href", "about:blank");
-    			attr_dev(a, "class", "link-button svelte-14tj696");
+    			attr_dev(a, "class", "link-button svelte-3qo9tz");
     			add_location(a, file$1, 8, 12, 273);
-    			attr_dev(div0, "class", "info-box-inner svelte-14tj696");
+    			attr_dev(div0, "class", "info-box-inner svelte-3qo9tz");
     			add_location(div0, file$1, 6, 8, 149);
-    			attr_dev(div1, "class", "info-box svelte-14tj696");
+    			attr_dev(div1, "class", "info-box svelte-3qo9tz");
     			add_location(div1, file$1, 5, 4, 118);
-    			attr_dev(section, "class", "svelte-14tj696");
+    			attr_dev(section, "class", "svelte-3qo9tz");
     			add_location(section, file$1, 4, 0, 104);
     		},
     		l: function claim(nodes) {

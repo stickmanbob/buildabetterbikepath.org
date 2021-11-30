@@ -15,7 +15,7 @@
     section {
         width: auto;
         height: 800px;
-        background-image: url("../../assets/img/bates1.jpg");
+        background-image: url("./assets/img/bates1.jpg");
         background-size: cover;
         position: relative;
     }
