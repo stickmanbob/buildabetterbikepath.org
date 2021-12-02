@@ -52,10 +52,6 @@
         align-items: center;
         /* position: relative; */
         background-color: #DAE9F2;
-        /* background-image: url("/assets/img/bates2.jpg");
-        background-size: cover;
-        background-position: center;
-        opacity: 15%; */
     }
     /* section::before {
         content: "";

@@ -6,7 +6,7 @@
 </script>
 
 <section>
-    <img class="x-button" src="/assets/img/x_icon.png" alt="close menu" on:click={dismiss}>
+    <img class="x-button" src="assets/img/x_icon.png" alt="close menu" on:click={dismiss}>
     <div>
         <h1><a>Sign the Petition</a></h1>
         <h1><a>Attend a Council Meeting</a></h1>

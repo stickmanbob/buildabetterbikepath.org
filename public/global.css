@@ -55,13 +55,13 @@ a:-webkit-any-link {
 
 @font-face {
 	font-family: bg-light;
-	src: url(../assets/fonts/brandon-grotesque-light-58a8a4b38001d.otf);
+	src: url(./assets/fonts/brandon-grotesque-light-58a8a4b38001d.otf);
 }
 
 @font-face {
 	font-family: bg-light;
 	font-weight: bold;
-	src: url(../assets/fonts/brandon-grotesque-black-58a8a3e824392.otf);
+	src: url(./assets/fonts/brandon-grotesque-black-58a8a3e824392.otf);
 }
 
 /* Default Svelte  */
