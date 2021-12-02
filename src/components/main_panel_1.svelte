@@ -26,6 +26,8 @@
         transform: translateX(-50%);
         left: 50%;
         text-align: center;
+
+        padding: 20px 30px; 
     }
 
     .info-box-inner {
@@ -44,8 +46,8 @@
         padding: 10px 15px;
         color: white;
         width: fit-content;
-        margin-bottom: 20px;
         cursor: pointer;   
+        font-size: 24px;
         border: 1px solid white; 
     }
 
@@ -54,5 +56,26 @@
         background-color: white;
         color: black;
         border: 1px solid black;
+    }
+
+    @media(max-width:600px){
+        section {
+            height: fit-content;
+            padding: 10% 0%;
+        }
+
+        .info-box {
+            position: relative;
+            box-sizing: border-box;
+            max-width: 90%;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .link-button {
+            font-size: 18px;
+        }
     }
 </style>
