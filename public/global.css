@@ -47,7 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-/* Default Svelte fonts */
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+/* Fonts */
 
 @font-face {
 	font-family: bg-light;
@@ -60,6 +64,7 @@ table {
 	src: url(../assets/fonts/brandon-grotesque-black-58a8a3e824392.otf);
 }
 
+/* Default Svelte  */
 html, body {
 	position: relative;
 	width: 100%;
