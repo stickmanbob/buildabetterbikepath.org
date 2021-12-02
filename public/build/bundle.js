@@ -997,11 +997,11 @@ var app = (function () {
     			t = space();
     			div1 = element("div");
     			if (col2_slot) col2_slot.c();
-    			attr_dev(div0, "class", "column svelte-hcp29w");
+    			attr_dev(div0, "class", "column svelte-14tg5js");
     			add_location(div0, file$1, 5, 4, 105);
-    			attr_dev(div1, "class", "column svelte-hcp29w");
+    			attr_dev(div1, "class", "column svelte-14tg5js");
     			add_location(div1, file$1, 9, 4, 176);
-    			attr_dev(section, "class", "svelte-hcp29w");
+    			attr_dev(section, "class", "svelte-14tg5js");
     			add_location(section, file$1, 4, 0, 91);
     		},
     		l: function claim(nodes) {
@@ -1149,18 +1149,23 @@ var app = (function () {
     			t6 = space();
     			li2 = element("li");
     			li2.textContent = "Disadvantage of path";
-    			add_location(h2, file, 21, 16, 978);
+    			attr_dev(h2, "class", "svelte-1aryxt8");
+    			add_location(h2, file, 21, 16, 1034);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-o5we51");
-    			add_location(img, file, 22, 16, 1028);
-    			add_location(li0, file, 24, 20, 1109);
-    			add_location(li1, file, 25, 20, 1159);
-    			add_location(li2, file, 26, 20, 1209);
-    			add_location(ul, file, 23, 16, 1084);
-    			attr_dev(div, "class", "column-inner svelte-o5we51");
+    			attr_dev(img, "class", "route-image svelte-1aryxt8");
+    			add_location(img, file, 22, 16, 1084);
+    			attr_dev(li0, "class", "svelte-1aryxt8");
+    			add_location(li0, file, 24, 20, 1165);
+    			attr_dev(li1, "class", "svelte-1aryxt8");
+    			add_location(li1, file, 25, 20, 1215);
+    			attr_dev(li2, "class", "svelte-1aryxt8");
+    			add_location(li2, file, 26, 20, 1265);
+    			attr_dev(ul, "class", "svelte-1aryxt8");
+    			add_location(ul, file, 23, 16, 1140);
+    			attr_dev(div, "class", "column-inner svelte-1aryxt8");
     			attr_dev(div, "slot", "col1");
-    			add_location(div, file, 20, 12, 923);
+    			add_location(div, file, 20, 12, 979);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1223,18 +1228,23 @@ var app = (function () {
     			t6 = space();
     			li2 = element("li");
     			li2.textContent = "advantage of path";
-    			add_location(h2, file, 31, 16, 1348);
+    			attr_dev(h2, "class", "svelte-1aryxt8");
+    			add_location(h2, file, 31, 16, 1404);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-o5we51");
-    			add_location(img, file, 32, 16, 1405);
-    			add_location(li0, file, 34, 20, 1486);
-    			add_location(li1, file, 35, 20, 1533);
-    			add_location(li2, file, 36, 20, 1580);
-    			add_location(ul, file, 33, 16, 1461);
-    			attr_dev(div, "class", "column-inner svelte-o5we51");
+    			attr_dev(img, "class", "route-image svelte-1aryxt8");
+    			add_location(img, file, 32, 16, 1461);
+    			attr_dev(li0, "class", "svelte-1aryxt8");
+    			add_location(li0, file, 34, 20, 1542);
+    			attr_dev(li1, "class", "svelte-1aryxt8");
+    			add_location(li1, file, 35, 20, 1589);
+    			attr_dev(li2, "class", "svelte-1aryxt8");
+    			add_location(li2, file, 36, 20, 1636);
+    			attr_dev(ul, "class", "svelte-1aryxt8");
+    			add_location(ul, file, 33, 16, 1517);
+    			attr_dev(div, "class", "column-inner svelte-1aryxt8");
     			attr_dev(div, "slot", "col2");
-    			add_location(div, file, 30, 12, 1293);
+    			add_location(div, file, 30, 12, 1349);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1298,7 +1308,7 @@ var app = (function () {
     			section = element("section");
     			div = element("div");
     			h1 = element("h1");
-    			h1.textContent = "The Rincon Bike Path";
+    			h1.textContent = "The Rincon Bike Path - End of Carpinteria Avenue to Rincon Beach Parking Lot";
     			t1 = space();
     			ul = element("ul");
     			li0 = element("li");
@@ -1314,16 +1324,21 @@ var app = (function () {
     			li3.textContent = "Reason wny the path needs to be changed";
     			t9 = space();
     			create_component(twocol.$$.fragment);
-    			attr_dev(h1, "class", "svelte-o5we51");
+    			attr_dev(h1, "class", "svelte-1aryxt8");
     			add_location(h1, file, 10, 12, 321);
-    			add_location(li0, file, 12, 20, 392);
-    			add_location(li1, file, 13, 20, 576);
-    			add_location(li2, file, 14, 20, 738);
-    			add_location(li3, file, 15, 20, 807);
-    			add_location(ul, file, 11, 16, 367);
-    			attr_dev(div, "class", "text-block svelte-o5we51");
+    			attr_dev(li0, "class", "svelte-1aryxt8");
+    			add_location(li0, file, 12, 20, 448);
+    			attr_dev(li1, "class", "svelte-1aryxt8");
+    			add_location(li1, file, 13, 20, 632);
+    			attr_dev(li2, "class", "svelte-1aryxt8");
+    			add_location(li2, file, 14, 20, 794);
+    			attr_dev(li3, "class", "svelte-1aryxt8");
+    			add_location(li3, file, 15, 20, 863);
+    			attr_dev(ul, "class", "svelte-1aryxt8");
+    			add_location(ul, file, 11, 16, 423);
+    			attr_dev(div, "class", "text-block svelte-1aryxt8");
     			add_location(div, file, 9, 8, 284);
-    			attr_dev(section, "class", "svelte-o5we51");
+    			attr_dev(section, "class", "svelte-1aryxt8");
     			add_location(section, file, 8, 0, 266);
     		},
     		l: function claim(nodes) {

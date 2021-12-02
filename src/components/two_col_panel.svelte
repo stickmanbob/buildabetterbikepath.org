@@ -25,5 +25,15 @@
         align-items: center;
         width:50%;
     }
+
+    @media(max-width:600px){
+        section{
+            flex-direction: column;
+        }
+
+        .column{
+            width: 100%;
+        }
+    }
 </style>
 

@@ -8,7 +8,7 @@
 
 <section>
         <div class="text-block">
-            <h1>The Rincon Bike Path</h1>
+            <h1>The Rincon Bike Path - End of Carpinteria Avenue to Rincon Beach Parking Lot</h1>
                 <ul>
                     <li>This bike path will connect carpineteria avenue with rincon beach and the rest of the coastal trail, however the current design has some serious drawbacks</li>
                     <li>The bike path is planned to be routed across a gap in the bluffs, requiring a bridge and tons of earthwork (over 40,000 truckloads!)</li>
@@ -46,6 +46,7 @@
         height: fit-content;
         padding: 5%;
         padding-top: 0%;
+        padding: 0px 5%; 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -74,26 +75,72 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 30px 0px;
     }
 
     .text-block h1 {
         font-size: 36px;
+        text-align: center;
+    }
+
+    .text-block ul {
+        margin-top: 20px; 
+    }
+
+    li {
+        font-size: 26px;
+        margin: 10px 0px; 
     }
 
 
     .column-inner {
         display: flex;
+        width: 95%; 
         flex-direction: column;
         align-items: center;
-        padding: 0% 5%;
     }
 
-    .column-inner h1 {
+    .column-inner h2 {
         text-align: center;
+        font-size: 28px;
     }
 
     .route-image {
         height: 400px;
+        width: 100%;
         background: white;
+        border: 1px solid white;
+    }
+
+    @media(max-width:600px) {
+
+        section {
+            padding: 10px;
+        }
+
+        .text-block {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .text-block h1 {
+            font-size: 24px;
+        }
+
+        ul {
+            width: 100%;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        .column-inner {
+            margin-top: 10px;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
     }
 </style>
