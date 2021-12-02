@@ -1,8 +1,18 @@
 <script>
 	// The Header
-
+	import ButtonsModal from "./mobile_modal.svelte";
 	// Get screen type
 	let mobile = (window.innerWidth <= 600);
+
+	// Setup the hamburger
+
+	let showButtons = false;
+
+	function clickMenu(e) {
+		e.preventDefault();
+		console.log("here!")
+		showButtons = !showButtons;
+	}
 
 </script>
 
@@ -70,7 +80,13 @@
 				<h2 class="nav-button">Attend a Council Meeting</h2>
 			</div>
 		{:else}
-			<img src="assets/img/hamburger_icon.svg" alt="menu">
+			<img src="assets/img/hamburger_icon.svg" on:click={clickMenu} alt="menu">
 		{/if}
 	</div>
 </header>
+
+{#if showButtons}
+	<ButtonsModal dismiss={clickMenu}>
+
+	</ButtonsModal>
+{/if}

@@ -3,7 +3,7 @@
     // bullet points of our main talking points, and a pic of the proposed construction
 
     //Imports
-    import TwoCol from "./twocolpanel.svelte";
+    import TwoCol from "./two_col_panel.svelte";
 </script>
 
 <section>
