@@ -7,7 +7,7 @@
 </script>
 
 <section>
-        <div class="inner">
+        <div class="text-block">
             <h1>The Rincon Bike Path</h1>
                 <ul>
                     <li>This bike path will connect carpineteria avenue with rincon beach and the rest of the coastal trail, however the current design has some serious drawbacks</li>
@@ -43,10 +43,13 @@
 <style>
     section {
         width: auto;
-        height: 100%;
+        height: fit-content;
+        padding: 5%;
+        padding-top: 0%;
         display: flex;
-        flex-direction: row;
-        position: relative;
+        flex-direction: column;
+        align-items: center;
+        /* position: relative; */
         background-color: #DAE9F2;
         /* background-image: url("/assets/img/bates2.jpg");
         background-size: cover;
@@ -67,12 +70,26 @@
         background-image: url("../assets/img/bates3.jpg");
     } */
 
+    .text-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-block h1 {
+        font-size: 36px;
+    }
+
 
     .column-inner {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0% 5%;
+    }
+
+    .column-inner h1 {
+        text-align: center;
     }
 
     .route-image {

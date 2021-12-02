@@ -394,81 +394,130 @@ var app = (function () {
 
     const file$3 = "src/components/Header.svelte";
 
+    // (72:2) {:else}
+    function create_else_block(ctx) {
+    	let img;
+    	let img_src_value;
+
+    	const block = {
+    		c: function create() {
+    			img = element("img");
+    			if (!src_url_equal(img.src, img_src_value = "assets/img/hamburger_icon.svg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "menu");
+    			add_location(img, file$3, 72, 3, 980);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, img, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(img);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block.name,
+    		type: "else",
+    		source: "(72:2) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (67:2) {#if !mobile}
+    function create_if_block(ctx) {
+    	let div;
+    	let h20;
+    	let t1;
+    	let h21;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h20 = element("h2");
+    			h20.textContent = "Sign the Petition";
+    			t1 = space();
+    			h21 = element("h2");
+    			h21.textContent = "Attend a Council Meeting";
+    			attr_dev(h20, "class", "nav-button svelte-9cepk");
+    			add_location(h20, file$3, 68, 4, 854);
+    			attr_dev(h21, "class", "nav-button svelte-9cepk");
+    			add_location(h21, file$3, 69, 4, 904);
+    			attr_dev(div, "class", "buttons-wrapper svelte-9cepk");
+    			add_location(div, file$3, 67, 3, 820);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h20);
+    			append_dev(div, t1);
+    			append_dev(div, h21);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block.name,
+    		type: "if",
+    		source: "(67:2) {#if !mobile}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
     function create_fragment$4(ctx) {
     	let header;
-    	let div2;
+    	let div1;
     	let div0;
     	let h1;
     	let t1;
-    	let div1;
-    	let h20;
-    	let t3;
-    	let h21;
-    	let t5;
-    	let h22;
-    	let t7;
-    	let h23;
+
+    	function select_block_type(ctx, dirty) {
+    		if (!/*mobile*/ ctx[0]) return create_if_block;
+    		return create_else_block;
+    	}
+
+    	let current_block_type = select_block_type(ctx);
+    	let if_block = current_block_type(ctx);
 
     	const block = {
     		c: function create() {
     			header = element("header");
-    			div2 = element("div");
+    			div1 = element("div");
     			div0 = element("div");
     			h1 = element("h1");
     			h1.textContent = "Build a Better Bike Path";
     			t1 = space();
-    			div1 = element("div");
-    			h20 = element("h2");
-    			h20.textContent = "Save the Bluffs";
-    			t3 = space();
-    			h21 = element("h2");
-    			h21.textContent = "Save the Bluffs";
-    			t5 = space();
-    			h22 = element("h2");
-    			h22.textContent = "Save the Bluffs";
-    			t7 = space();
-    			h23 = element("h2");
-    			h23.textContent = "Save the Bluffs";
-    			add_location(h1, file$3, 26, 3, 388);
-    			add_location(div0, file$3, 25, 2, 379);
-    			attr_dev(h20, "class", "nav-button svelte-6hrq2");
-    			add_location(h20, file$3, 32, 3, 476);
-    			attr_dev(h21, "class", "nav-button svelte-6hrq2");
-    			add_location(h21, file$3, 33, 3, 523);
-    			attr_dev(h22, "class", "nav-button svelte-6hrq2");
-    			add_location(h22, file$3, 34, 3, 570);
-    			attr_dev(h23, "class", "nav-button svelte-6hrq2");
-    			add_location(h23, file$3, 35, 3, 617);
-    			attr_dev(div1, "class", "buttons-wrapper svelte-6hrq2");
-    			add_location(div1, file$3, 31, 2, 443);
-    			attr_dev(div2, "class", "header-inner svelte-6hrq2");
-    			add_location(div2, file$3, 24, 1, 350);
-    			attr_dev(header, "class", "header svelte-6hrq2");
-    			add_location(header, file$3, 23, 0, 325);
+    			if_block.c();
+    			attr_dev(h1, "class", "svelte-9cepk");
+    			add_location(h1, file$3, 61, 3, 748);
+    			add_location(div0, file$3, 60, 2, 739);
+    			attr_dev(div1, "class", "header-inner svelte-9cepk");
+    			add_location(div1, file$3, 59, 1, 710);
+    			attr_dev(header, "class", "header svelte-9cepk");
+    			add_location(header, file$3, 58, 0, 685);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, header, anchor);
-    			append_dev(header, div2);
-    			append_dev(div2, div0);
+    			append_dev(header, div1);
+    			append_dev(div1, div0);
     			append_dev(div0, h1);
-    			append_dev(div2, t1);
-    			append_dev(div2, div1);
-    			append_dev(div1, h20);
-    			append_dev(div1, t3);
-    			append_dev(div1, h21);
-    			append_dev(div1, t5);
-    			append_dev(div1, h22);
-    			append_dev(div1, t7);
-    			append_dev(div1, h23);
+    			append_dev(div1, t1);
+    			if_block.m(div1, null);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(header);
+    			if_block.d();
     		}
     	};
 
@@ -483,16 +532,27 @@ var app = (function () {
     	return block;
     }
 
-    function instance$4($$self, $$props) {
+    function instance$4($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Header', slots, []);
+    	let mobile = window.innerWidth <= 600;
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Header> was created with unknown prop '${key}'`);
     	});
 
-    	return [];
+    	$$self.$capture_state = () => ({ mobile });
+
+    	$$self.$inject_state = $$props => {
+    		if ('mobile' in $$props) $$invalidate(0, mobile = $$props.mobile);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [mobile];
     }
 
     class Header extends SvelteComponentDev {
@@ -608,6 +668,7 @@ var app = (function () {
     const get_col1_slot_context = ctx => ({});
 
     function create_fragment$2(ctx) {
+    	let section;
     	let div0;
     	let t;
     	let div1;
@@ -619,28 +680,32 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
+    			section = element("section");
     			div0 = element("div");
     			if (col1_slot) col1_slot.c();
     			t = space();
     			div1 = element("div");
     			if (col2_slot) col2_slot.c();
-    			attr_dev(div0, "class", "column svelte-uiqx0c");
-    			add_location(div0, file$1, 4, 0, 91);
-    			attr_dev(div1, "class", "column svelte-uiqx0c");
-    			add_location(div1, file$1, 8, 0, 150);
+    			attr_dev(div0, "class", "column svelte-hcp29w");
+    			add_location(div0, file$1, 5, 4, 105);
+    			attr_dev(div1, "class", "column svelte-hcp29w");
+    			add_location(div1, file$1, 9, 4, 176);
+    			attr_dev(section, "class", "svelte-hcp29w");
+    			add_location(section, file$1, 4, 0, 91);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div0, anchor);
+    			insert_dev(target, section, anchor);
+    			append_dev(section, div0);
 
     			if (col1_slot) {
     				col1_slot.m(div0, null);
     			}
 
-    			insert_dev(target, t, anchor);
-    			insert_dev(target, div1, anchor);
+    			append_dev(section, t);
+    			append_dev(section, div1);
 
     			if (col2_slot) {
     				col2_slot.m(div1, null);
@@ -691,10 +756,8 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div0);
+    			if (detaching) detach_dev(section);
     			if (col1_slot) col1_slot.d(detaching);
-    			if (detaching) detach_dev(t);
-    			if (detaching) detach_dev(div1);
     			if (col2_slot) col2_slot.d(detaching);
     		}
     	};
@@ -775,18 +838,18 @@ var app = (function () {
     			t6 = space();
     			li2 = element("li");
     			li2.textContent = "Disadvantage of path";
-    			add_location(h2, file, 21, 16, 971);
+    			add_location(h2, file, 21, 16, 976);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-29d950");
-    			add_location(img, file, 22, 16, 1021);
-    			add_location(li0, file, 24, 20, 1102);
-    			add_location(li1, file, 25, 20, 1152);
-    			add_location(li2, file, 26, 20, 1202);
-    			add_location(ul, file, 23, 16, 1077);
-    			attr_dev(div, "class", "column-inner svelte-29d950");
+    			attr_dev(img, "class", "route-image svelte-o5we51");
+    			add_location(img, file, 22, 16, 1026);
+    			add_location(li0, file, 24, 20, 1107);
+    			add_location(li1, file, 25, 20, 1157);
+    			add_location(li2, file, 26, 20, 1207);
+    			add_location(ul, file, 23, 16, 1082);
+    			attr_dev(div, "class", "column-inner svelte-o5we51");
     			attr_dev(div, "slot", "col1");
-    			add_location(div, file, 20, 12, 916);
+    			add_location(div, file, 20, 12, 921);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -849,18 +912,18 @@ var app = (function () {
     			t6 = space();
     			li2 = element("li");
     			li2.textContent = "advantage of path";
-    			add_location(h2, file, 31, 16, 1341);
+    			add_location(h2, file, 31, 16, 1346);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-29d950");
-    			add_location(img, file, 32, 16, 1398);
-    			add_location(li0, file, 34, 20, 1479);
-    			add_location(li1, file, 35, 20, 1526);
-    			add_location(li2, file, 36, 20, 1573);
-    			add_location(ul, file, 33, 16, 1454);
-    			attr_dev(div, "class", "column-inner svelte-29d950");
+    			attr_dev(img, "class", "route-image svelte-o5we51");
+    			add_location(img, file, 32, 16, 1403);
+    			add_location(li0, file, 34, 20, 1484);
+    			add_location(li1, file, 35, 20, 1531);
+    			add_location(li2, file, 36, 20, 1578);
+    			add_location(ul, file, 33, 16, 1459);
+    			attr_dev(div, "class", "column-inner svelte-o5we51");
     			attr_dev(div, "slot", "col2");
-    			add_location(div, file, 30, 12, 1286);
+    			add_location(div, file, 30, 12, 1291);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -940,15 +1003,16 @@ var app = (function () {
     			li3.textContent = "Reason wny the path needs to be changed";
     			t9 = space();
     			create_component(twocol.$$.fragment);
-    			add_location(h1, file, 10, 12, 314);
-    			add_location(li0, file, 12, 20, 385);
-    			add_location(li1, file, 13, 20, 569);
-    			add_location(li2, file, 14, 20, 731);
-    			add_location(li3, file, 15, 20, 800);
-    			add_location(ul, file, 11, 16, 360);
-    			attr_dev(div, "class", "inner");
+    			attr_dev(h1, "class", "svelte-o5we51");
+    			add_location(h1, file, 10, 12, 319);
+    			add_location(li0, file, 12, 20, 390);
+    			add_location(li1, file, 13, 20, 574);
+    			add_location(li2, file, 14, 20, 736);
+    			add_location(li3, file, 15, 20, 805);
+    			add_location(ul, file, 11, 16, 365);
+    			attr_dev(div, "class", "text-block svelte-o5we51");
     			add_location(div, file, 9, 8, 282);
-    			attr_dev(section, "class", "svelte-29d950");
+    			attr_dev(section, "class", "svelte-o5we51");
     			add_location(section, file, 8, 0, 264);
     		},
     		l: function claim(nodes) {
