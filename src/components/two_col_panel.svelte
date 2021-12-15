@@ -1,5 +1,6 @@
 <script>
     // This component takes in children and arranges them in 2 columns
+    // horizontal on desktop, vertically stacked on mobile
 </script>
 
 <section>
