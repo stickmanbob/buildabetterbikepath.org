@@ -83,7 +83,7 @@
 				<h2 class="nav-button">
 					<a href="https://www.change.org/p/carpinteria-city-council-save-bates-carpinteria-s-historic-flying-site-f1131508-0d82-4ded-802c-a1226c01e049?utm_content=cl_sharecopy_27790827_en-US%3A3&recruiter=26187358&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition">
 						Sign the Petition</a></h2>
-				<h2 class="nav-button">Attend a Council Meeting</h2>
+				<h2 class="nav-button"><a href= "#meetings">Attend a Council Meeting</a></h2>
 			</div>
 		{:else}
 			<img src="assets/img/hamburger_icon.svg" on:click={clickMenu} alt="menu">
