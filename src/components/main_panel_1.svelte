@@ -6,7 +6,8 @@
     <div class="info-box">
         <div class="info-box-inner">
             <h1>Re-route the Rincon bike path to preserve our coastal bluffs!</h1>
-            <a href="about:blank" class="link-button">Sign the Petition!</a>
+            <a href="https://www.change.org/p/carpinteria-city-council-save-bates-carpinteria-s-historic-flying-site-f1131508-0d82-4ded-802c-a1226c01e049?utm_content=cl_sharecopy_27790827_en-US%3A3&recruiter=26187358&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition" class="link-button">
+                Sign the Petition!</a>
         </div>
     </div>
 </section>
