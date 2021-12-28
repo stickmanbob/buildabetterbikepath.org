@@ -10,13 +10,13 @@
         <div class="text-block">
             <h1>The Rincon Bike Path - End of Carpinteria Avenue to Rincon Beach Parking Lot</h1>
                 <ul>
-                    <li>This bike path will connect Carpineteria Avenue with Rincon Beach and the rest of the coastal trail, however the current design has some serious drawbacks</li>
+                    <li>This bike path will connect Carpinteria Avenue with Rincon Beach and the rest of the coastal trail, however the current design has some serious drawbacks</li>
                     <li>The bike path is planned to be routed across a gap in the bluffs, requiring a bridge and tons of earthwork (over 40,000 truckloads!)</li>
                     <li>Construction will require over 40,000 truckloads of dirt to be removed from the bluff, creating severe coastal erosion and greatly exascerbating traffic along the 101</li>
-                    <li>The current design has a steep (5%) slope and empties into the Rincon Beach parking lot. This will likely lead to many accidents as bikers colide with cars at high speed.</li>
+                    <li>The current design has a steep (5%) slope and empties into the Rincon Beach parking lot. This will likely lead to many accidents as bikers collide with cars at high speed</li>
                     <li>Better alternatives to this design exist, such as building the bike path on the north side of highway 101 and connecting it to the existing Ventura trail. However, <strong>they are not being considered by project planners or regulators</strong></li>
                     <li>This design would destroy the historic Bates Bluff hang gliding and paragliding site, which attracts pilots from all over the world</li>
-                    <li>Approving this design would open the doors for development of the rest of Carpinteria's beautiful, pristine coastal bluffs.</li>
+                    <li>Approving this design would open the doors for development of the rest of Carpinteria's beautiful, pristine coastal bluffs</li>
                 </ul>
         </div>
 
