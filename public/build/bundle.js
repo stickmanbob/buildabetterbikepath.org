@@ -1165,21 +1165,21 @@ var app = (function () {
     			t6 = space();
     			li2 = element("li");
     			li2.textContent = "Will cost over $14,000,000 of taxpayer money to fund construction of the bridge";
-    			attr_dev(h2, "class", "svelte-qwf0t");
+    			attr_dev(h2, "class", "svelte-3e4gdo");
     			add_location(h2, file$2, 24, 16, 1880);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-qwf0t");
+    			attr_dev(img, "class", "route-image svelte-3e4gdo");
     			add_location(img, file$2, 25, 16, 1930);
-    			attr_dev(li0, "class", "svelte-qwf0t");
+    			attr_dev(li0, "class", "svelte-3e4gdo");
     			add_location(li0, file$2, 27, 20, 2011);
-    			attr_dev(li1, "class", "svelte-qwf0t");
+    			attr_dev(li1, "class", "svelte-3e4gdo");
     			add_location(li1, file$2, 28, 20, 2109);
-    			attr_dev(li2, "class", "svelte-qwf0t");
+    			attr_dev(li2, "class", "svelte-3e4gdo");
     			add_location(li2, file$2, 29, 20, 2212);
-    			attr_dev(ul, "class", "svelte-qwf0t");
+    			attr_dev(ul, "class", "svelte-3e4gdo");
     			add_location(ul, file$2, 26, 16, 1986);
-    			attr_dev(div, "class", "column-inner svelte-qwf0t");
+    			attr_dev(div, "class", "column-inner svelte-3e4gdo");
     			attr_dev(div, "slot", "col1");
     			add_location(div, file$2, 23, 12, 1825);
     		},
@@ -1254,25 +1254,25 @@ var app = (function () {
     			t10 = space();
     			li4 = element("li");
     			li4.textContent = "Far fewer truckloads of earth that needs to be moved and a fraction of the cost";
-    			attr_dev(h2, "class", "svelte-qwf0t");
+    			attr_dev(h2, "class", "svelte-3e4gdo");
     			add_location(h2, file$2, 34, 16, 2410);
     			if (!src_url_equal(img.src, img_src_value = "")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			attr_dev(img, "class", "route-image svelte-qwf0t");
+    			attr_dev(img, "class", "route-image svelte-3e4gdo");
     			add_location(img, file$2, 35, 16, 2467);
-    			attr_dev(li0, "class", "svelte-qwf0t");
+    			attr_dev(li0, "class", "svelte-3e4gdo");
     			add_location(li0, file$2, 37, 20, 2548);
-    			attr_dev(li1, "class", "svelte-qwf0t");
+    			attr_dev(li1, "class", "svelte-3e4gdo");
     			add_location(li1, file$2, 38, 20, 2628);
-    			attr_dev(li2, "class", "svelte-qwf0t");
+    			attr_dev(li2, "class", "svelte-3e4gdo");
     			add_location(li2, file$2, 39, 20, 2728);
-    			attr_dev(li3, "class", "svelte-qwf0t");
+    			attr_dev(li3, "class", "svelte-3e4gdo");
     			add_location(li3, file$2, 40, 20, 2834);
-    			attr_dev(li4, "class", "svelte-qwf0t");
+    			attr_dev(li4, "class", "svelte-3e4gdo");
     			add_location(li4, file$2, 41, 20, 2960);
-    			attr_dev(ul, "class", "svelte-qwf0t");
+    			attr_dev(ul, "class", "svelte-3e4gdo");
     			add_location(ul, file$2, 36, 16, 2523);
-    			attr_dev(div, "class", "column-inner svelte-qwf0t");
+    			attr_dev(div, "class", "column-inner svelte-3e4gdo");
     			attr_dev(div, "slot", "col2");
     			add_location(div, file$2, 33, 12, 2355);
     		},
@@ -1377,28 +1377,29 @@ var app = (function () {
     			li6.textContent = "Approving this design would open the doors for development of the rest of Carpinteria's beautiful, pristine coastal bluffs.";
     			t16 = space();
     			create_component(twocol.$$.fragment);
-    			attr_dev(h1, "class", "svelte-qwf0t");
+    			attr_dev(h1, "class", "svelte-3e4gdo");
     			add_location(h1, file$2, 10, 12, 321);
-    			attr_dev(li0, "class", "svelte-qwf0t");
+    			attr_dev(li0, "class", "svelte-3e4gdo");
     			add_location(li0, file$2, 12, 20, 448);
-    			attr_dev(li1, "class", "svelte-qwf0t");
+    			attr_dev(li1, "class", "svelte-3e4gdo");
     			add_location(li1, file$2, 13, 20, 632);
-    			attr_dev(li2, "class", "svelte-qwf0t");
+    			attr_dev(li2, "class", "svelte-3e4gdo");
     			add_location(li2, file$2, 14, 20, 794);
-    			attr_dev(li3, "class", "svelte-qwf0t");
+    			attr_dev(li3, "class", "svelte-3e4gdo");
     			add_location(li3, file$2, 15, 20, 990);
+    			attr_dev(strong, "class", "svelte-3e4gdo");
     			add_location(strong, file$2, 16, 188, 1358);
-    			attr_dev(li4, "class", "svelte-qwf0t");
+    			attr_dev(li4, "class", "svelte-3e4gdo");
     			add_location(li4, file$2, 16, 20, 1190);
-    			attr_dev(li5, "class", "svelte-qwf0t");
+    			attr_dev(li5, "class", "svelte-3e4gdo");
     			add_location(li5, file$2, 17, 20, 1464);
-    			attr_dev(li6, "class", "svelte-qwf0t");
+    			attr_dev(li6, "class", "svelte-3e4gdo");
     			add_location(li6, file$2, 18, 20, 1625);
-    			attr_dev(ul, "class", "svelte-qwf0t");
+    			attr_dev(ul, "class", "svelte-3e4gdo");
     			add_location(ul, file$2, 11, 16, 423);
-    			attr_dev(div, "class", "text-block svelte-qwf0t");
+    			attr_dev(div, "class", "text-block svelte-3e4gdo");
     			add_location(div, file$2, 9, 8, 284);
-    			attr_dev(section, "class", "svelte-qwf0t");
+    			attr_dev(section, "class", "svelte-3e4gdo");
     			add_location(section, file$2, 8, 0, 266);
     		},
     		l: function claim(nodes) {
@@ -1504,7 +1505,13 @@ var app = (function () {
     	let h2;
     	let t3;
     	let ul;
-    	let li;
+    	let li0;
+    	let strong0;
+    	let t5;
+    	let t6;
+    	let li1;
+    	let strong1;
+    	let t8;
 
     	const block = {
     		c: function create() {
@@ -1518,21 +1525,33 @@ var app = (function () {
     			h2.textContent = "Upcoming Meetings:";
     			t3 = space();
     			ul = element("ul");
-    			li = element("li");
-    			li.textContent = "No meetings yet, more information coming soon";
-    			attr_dev(h1, "class", "svelte-5bava2");
+    			li0 = element("li");
+    			strong0 = element("strong");
+    			strong0.textContent = "December 2021";
+    			t5 = text(" - City of Carpinteria review/approval of Environmental Impact Statement (date TBD)");
+    			t6 = space();
+    			li1 = element("li");
+    			strong1 = element("strong");
+    			strong1.textContent = "March 2022";
+    			t8 = text(" - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)");
+    			attr_dev(h1, "class", "svelte-v9b4tl");
     			add_location(h1, file$1, 5, 4, 101);
-    			attr_dev(h2, "class", "svelte-5bava2");
+    			attr_dev(h2, "class", "svelte-v9b4tl");
     			add_location(h2, file$1, 9, 12, 209);
-    			add_location(li, file$1, 11, 16, 270);
-    			attr_dev(ul, "class", "svelte-5bava2");
+    			attr_dev(strong0, "class", "svelte-v9b4tl");
+    			add_location(strong0, file$1, 11, 20, 274);
+    			add_location(li0, file$1, 11, 16, 270);
+    			attr_dev(strong1, "class", "svelte-v9b4tl");
+    			add_location(strong1, file$1, 12, 20, 413);
+    			add_location(li1, file$1, 12, 16, 409);
+    			attr_dev(ul, "class", "svelte-v9b4tl");
     			add_location(ul, file$1, 10, 12, 249);
     			attr_dev(div0, "class", "info-box-inner");
     			add_location(div0, file$1, 8, 8, 168);
-    			attr_dev(div1, "class", "info-box svelte-5bava2");
+    			attr_dev(div1, "class", "info-box svelte-v9b4tl");
     			add_location(div1, file$1, 7, 4, 137);
     			attr_dev(section, "id", "meetings");
-    			attr_dev(section, "class", "svelte-5bava2");
+    			attr_dev(section, "class", "svelte-v9b4tl");
     			add_location(section, file$1, 4, 0, 73);
     		},
     		l: function claim(nodes) {
@@ -1547,7 +1566,13 @@ var app = (function () {
     			append_dev(div0, h2);
     			append_dev(div0, t3);
     			append_dev(div0, ul);
-    			append_dev(ul, li);
+    			append_dev(ul, li0);
+    			append_dev(li0, strong0);
+    			append_dev(li0, t5);
+    			append_dev(ul, t6);
+    			append_dev(ul, li1);
+    			append_dev(li1, strong1);
+    			append_dev(li1, t8);
     		},
     		p: noop,
     		i: noop,

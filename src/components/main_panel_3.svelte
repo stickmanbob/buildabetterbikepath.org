@@ -9,7 +9,8 @@
         <div class="info-box-inner">
             <h2>Upcoming Meetings:</h2>
             <ul>
-                <li>No meetings yet, more information coming soon</li>
+                <li><strong>December 2021</strong> - City of Carpinteria review/approval of Environmental Impact Statement (date TBD)</li>
+                <li><strong>March 2022</strong> - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)</li>
             </ul>
         </div>
     </div>
@@ -60,5 +61,9 @@
         margin-top: 20px; 
 
         align-self: flex-start;
+    }
+
+    strong {
+        font-weight: bold;
     }
 </style>
