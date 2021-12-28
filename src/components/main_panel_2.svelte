@@ -113,6 +113,10 @@
         border: 1px solid white;
     }
 
+    strong {
+        font-weight: bold;
+    }
+
     @media(max-width:600px) {
 
         section {
