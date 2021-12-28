@@ -5,17 +5,13 @@
 <section>
     <div class="inner">
         <h1>Contact Your Representatives</h1>
-        
-        <h2>City of Carpinteria</h2>
-        <ul>
-            <li>Representative Here</li>
-        </ul>
-
-        <h2>California Costal Commison</h2>
-        <ul>
-            <li>Representative here</li>
-        </ul>
-
+            <h2>California Costal Commison</h2>
+            <h3><a href="https://docs.google.com/document/d/18GzjsAAAoeVEBP7dWNe5vJUpCHzTA2KvVbRPXD4noCI/view">(Sample Email)</a></h3>
+            <ul>
+                <li>Meagan Harmon - Meagan.Harmon@coastal.ca.gov</li>
+                <li>Roberto Uranga - Roberto.Uranga@coastal.ca.gov</li>
+                <li>Rick Rivas - Rick.Rivas@coastal.ca.gov</li>
+            </ul>
     </div>
 </section>
 
@@ -38,7 +34,24 @@
 
     h2{
         margin-top: 20px;
+        font-size: 28px;
+    }
+
+    h3{
+        margin-bottom: 10px;
         font-size: 20px;
+    }
+
+    h3 a{
+        color: white;
+    }
+
+    h3 a:hover{
+        color: yellow;
+    }
+
+    ul{
+        text-align: left;
     }
 
     

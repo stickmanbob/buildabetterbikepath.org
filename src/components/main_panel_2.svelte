@@ -23,7 +23,7 @@
         <TwoCol>
             <div class="column-inner" slot="col1">
                 <h2>Current Bike Path Design</h2>
-                <img src="" alt="" class="route-image">
+                <img src="../assets/img/path1.png" alt="Path over gap in bluffs, requiring bridge" class="route-image">
                 <ul>
                     <li>Requires the construction of a bridge over eroding and unstable soil</li>
                     <li>Empties bikes into the crowded Rincon parking lot, a recipie for disaster</li>
@@ -33,7 +33,7 @@
 
             <div class="column-inner" slot="col2">
                 <h2>Alternate # 4 (preferred route)</h2>
-                <img src="" alt="" class="route-image">
+                <img src="../assets/img/path-alt-4.png" alt="Path along existing bench in north side of freeway" class="route-image">
                 <ul>
                     <li>On the North side of the freeway, on stable ground</li>
                     <li>Will still connect with Rincon Beach and the rest of the Ventura trail</li>
