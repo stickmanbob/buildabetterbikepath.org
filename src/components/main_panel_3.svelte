@@ -8,8 +8,14 @@
     <div class="info-box">
         <div class="info-box-inner">
             <h2>Upcoming Meetings:</h2>
-            <ul>
-                <li><strong>December 2021</strong> - City of Carpinteria review/approval of Environmental Impact Statement (date TBD)</li>
+            <ul class="meetings-list">
+                <li><strong>January 18, 2022</strong> - City of Carpinteria Planning Commission at  5:30 PM
+                    <ul class="sublist">
+                        <li><a href="https://carpinteria.ca.us/city-hall/agendas-meetings ">Agenda will post on January 13, 2022 here</a></li>
+                        <li>Email your support for a different bike path to <a href="mailto:PublicComment@ci.carpinteria.ca.us?subject=Rincon%20Multi%20Use%20Trail&body=Greetings%2C%0D%0A%0D%0AMy%20name%20is%20___%2C%20and%20I'm%20in%20support%20of%20the%20Rincon%20Multi%20Use%20Trail%20to%20allow%20cyclists%20to%20safely%20connect%20Carpinteria%20and%20the%20Ventura%20trail.%20However%2C%20I%20think%20the%20current%20design%20has%20some%20serious%20drawbacks%2C%20such%20as%20emptying%20bikes%20directly%20into%20the%20busy%20Rincon%20Beach%20parking%20lot%20at%20high%20speed%20and%20an%20alarmingly%20high%20cost.%20I%20would%20like%20to%20see%20the%20project%20planners%20propose%20an%20alternative%20route%20that%20does%20not%20cut%20into%20the%20coastal%20bluffs%20and%20which%20is%20cheaper%20and%20safe.%0D%0A%0D%0AThank%20You%2C%0D%0A">
+                            PublicComment@ci.carpinteria.ca.us</a></li>
+                    </ul>
+                </li>
                 <li><strong>March 2022</strong> - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)</li>
             </ul>
         </div>
@@ -55,12 +61,26 @@
         font-size: 36px;
     }
 
-    .info-box ul {
+    .meetings-list {
         font-size: 24px;
 
         margin-top: 20px; 
 
         align-self: flex-start;
+    }
+
+    .sublist{
+        margin-top: 5px;
+        margin-left: 50px
+
+    }
+
+    a {
+        color: red;
+    }
+
+    a:hover {
+        color: blue;
     }
 
     strong {
