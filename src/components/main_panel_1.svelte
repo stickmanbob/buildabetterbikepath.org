@@ -65,18 +65,20 @@
             padding: 10% 0%;
         }
 
-        .info-box {
-            position: relative;
-            box-sizing: border-box;
-            max-width: 90%;
-        }
-
         h1 {
             font-size: 24px;
         }
 
         .link-button {
             font-size: 18px;
+        }
+    }
+
+    @media(max-width:650px){
+        .info-box {
+            position: relative;
+            box-sizing: border-box;
+            max-width: 90%;
         }
     }
 </style>
