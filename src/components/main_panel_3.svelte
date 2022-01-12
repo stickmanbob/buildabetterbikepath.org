@@ -25,6 +25,8 @@
 <style>
     section {
         background-image: url("../assets/img/bates3.jpg");
+        background-size: cover;
+        background-position: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -36,9 +38,8 @@
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        color: white;
-        -webkit-text-stroke: 1px navy;
-        text-stroke: 1px navy;
+        color: black;
+        /* -webkit-text-stroke: 1px white; */
 
         margin-bottom: 30px;
     }
