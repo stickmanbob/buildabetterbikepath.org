@@ -918,16 +918,16 @@ var app = (function () {
     			t1 = space();
     			a = element("a");
     			a.textContent = "Sign the Petition!";
-    			attr_dev(h1, "class", "svelte-tgjjss");
+    			attr_dev(h1, "class", "svelte-qlkcpp");
     			add_location(h1, file$4, 7, 12, 190);
     			attr_dev(a, "href", "https://www.change.org/p/carpinteria-city-council-save-bates-carpinteria-s-historic-flying-site-f1131508-0d82-4ded-802c-a1226c01e049?utm_content=cl_sharecopy_27790827_en-US%3A3&recruiter=26187358&utm_source=share_petition&utm_medium=copylink&utm_campaign=share_petition");
-    			attr_dev(a, "class", "link-button svelte-tgjjss");
+    			attr_dev(a, "class", "link-button svelte-qlkcpp");
     			add_location(a, file$4, 8, 12, 273);
-    			attr_dev(div0, "class", "info-box-inner svelte-tgjjss");
+    			attr_dev(div0, "class", "info-box-inner svelte-qlkcpp");
     			add_location(div0, file$4, 6, 8, 149);
-    			attr_dev(div1, "class", "info-box svelte-tgjjss");
+    			attr_dev(div1, "class", "info-box svelte-qlkcpp");
     			add_location(div1, file$4, 5, 4, 118);
-    			attr_dev(section, "class", "svelte-tgjjss");
+    			attr_dev(section, "class", "svelte-qlkcpp");
     			add_location(section, file$4, 4, 0, 104);
     		},
     		l: function claim(nodes) {
@@ -1504,14 +1504,21 @@ var app = (function () {
     	let div0;
     	let h2;
     	let t3;
-    	let ul;
-    	let li0;
+    	let ul1;
+    	let li2;
     	let strong0;
     	let t5;
-    	let t6;
+    	let ul0;
+    	let li0;
+    	let a0;
+    	let t7;
     	let li1;
-    	let strong1;
     	let t8;
+    	let a1;
+    	let t10;
+    	let li3;
+    	let strong1;
+    	let t12;
 
     	const block = {
     		c: function create() {
@@ -1524,34 +1531,53 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "Upcoming Meetings:";
     			t3 = space();
-    			ul = element("ul");
-    			li0 = element("li");
+    			ul1 = element("ul");
+    			li2 = element("li");
     			strong0 = element("strong");
-    			strong0.textContent = "December 2021";
-    			t5 = text(" - City of Carpinteria review/approval of Environmental Impact Statement (date TBD)");
-    			t6 = space();
+    			strong0.textContent = "January 18, 2022";
+    			t5 = text(" - City of Carpinteria Planning Commission at  5:30 PM\n                    ");
+    			ul0 = element("ul");
+    			li0 = element("li");
+    			a0 = element("a");
+    			a0.textContent = "Agenda will post on January 13, 2022 here";
+    			t7 = space();
     			li1 = element("li");
+    			t8 = text("Email your support for a different bike path to ");
+    			a1 = element("a");
+    			a1.textContent = "PublicComment@ci.carpinteria.ca.us";
+    			t10 = space();
+    			li3 = element("li");
     			strong1 = element("strong");
     			strong1.textContent = "March 2022";
-    			t8 = text(" - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)");
-    			attr_dev(h1, "class", "svelte-v9b4tl");
+    			t12 = text(" - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)");
+    			attr_dev(h1, "class", "svelte-5ozwdl");
     			add_location(h1, file$1, 5, 4, 101);
-    			attr_dev(h2, "class", "svelte-v9b4tl");
+    			attr_dev(h2, "class", "svelte-5ozwdl");
     			add_location(h2, file$1, 9, 12, 209);
-    			attr_dev(strong0, "class", "svelte-v9b4tl");
-    			add_location(strong0, file$1, 11, 20, 274);
-    			add_location(li0, file$1, 11, 16, 270);
-    			attr_dev(strong1, "class", "svelte-v9b4tl");
-    			add_location(strong1, file$1, 12, 20, 413);
-    			add_location(li1, file$1, 12, 16, 409);
-    			attr_dev(ul, "class", "svelte-v9b4tl");
-    			add_location(ul, file$1, 10, 12, 249);
+    			attr_dev(strong0, "class", "svelte-5ozwdl");
+    			add_location(strong0, file$1, 11, 20, 296);
+    			attr_dev(a0, "href", "https://carpinteria.ca.us/city-hall/agendas-meetings ");
+    			attr_dev(a0, "class", "svelte-5ozwdl");
+    			add_location(a0, file$1, 13, 28, 453);
+    			add_location(li0, file$1, 13, 24, 449);
+    			attr_dev(a1, "href", "mailto:PublicComment@ci.carpinteria.ca.us?subject=Rincon%20Multi%20Use%20Trail&body=Greetings%2C%0D%0A%0D%0AMy%20name%20is%20___%2C%20and%20I'm%20in%20support%20of%20the%20Rincon%20Multi%20Use%20Trail%20to%20allow%20cyclists%20to%20safely%20connect%20Carpinteria%20and%20the%20Ventura%20trail.%20However%2C%20I%20think%20the%20current%20design%20has%20some%20serious%20drawbacks%2C%20such%20as%20emptying%20bikes%20directly%20into%20the%20busy%20Rincon%20Beach%20parking%20lot%20at%20high%20speed%20and%20an%20alarmingly%20high%20cost.%20I%20would%20like%20to%20see%20the%20project%20planners%20propose%20an%20alternative%20route%20that%20does%20not%20cut%20into%20the%20coastal%20bluffs%20and%20which%20is%20cheaper%20and%20safe.%0D%0A%0D%0AThank%20You%2C%0D%0A");
+    			attr_dev(a1, "class", "svelte-5ozwdl");
+    			add_location(a1, file$1, 14, 76, 644);
+    			add_location(li1, file$1, 14, 24, 592);
+    			attr_dev(ul0, "class", "sublist svelte-5ozwdl");
+    			add_location(ul0, file$1, 12, 20, 404);
+    			add_location(li2, file$1, 11, 16, 292);
+    			attr_dev(strong1, "class", "svelte-5ozwdl");
+    			add_location(strong1, file$1, 18, 20, 1558);
+    			add_location(li3, file$1, 18, 16, 1554);
+    			attr_dev(ul1, "class", "meetings-list svelte-5ozwdl");
+    			add_location(ul1, file$1, 10, 12, 249);
     			attr_dev(div0, "class", "info-box-inner");
     			add_location(div0, file$1, 8, 8, 168);
-    			attr_dev(div1, "class", "info-box svelte-v9b4tl");
+    			attr_dev(div1, "class", "info-box svelte-5ozwdl");
     			add_location(div1, file$1, 7, 4, 137);
     			attr_dev(section, "id", "meetings");
-    			attr_dev(section, "class", "svelte-v9b4tl");
+    			attr_dev(section, "class", "svelte-5ozwdl");
     			add_location(section, file$1, 4, 0, 73);
     		},
     		l: function claim(nodes) {
@@ -1565,14 +1591,21 @@ var app = (function () {
     			append_dev(div1, div0);
     			append_dev(div0, h2);
     			append_dev(div0, t3);
-    			append_dev(div0, ul);
-    			append_dev(ul, li0);
-    			append_dev(li0, strong0);
-    			append_dev(li0, t5);
-    			append_dev(ul, t6);
-    			append_dev(ul, li1);
-    			append_dev(li1, strong1);
+    			append_dev(div0, ul1);
+    			append_dev(ul1, li2);
+    			append_dev(li2, strong0);
+    			append_dev(li2, t5);
+    			append_dev(li2, ul0);
+    			append_dev(ul0, li0);
+    			append_dev(li0, a0);
+    			append_dev(ul0, t7);
+    			append_dev(ul0, li1);
     			append_dev(li1, t8);
+    			append_dev(li1, a1);
+    			append_dev(ul1, t10);
+    			append_dev(ul1, li3);
+    			append_dev(li3, strong1);
+    			append_dev(li3, t12);
     		},
     		p: noop,
     		i: noop,
