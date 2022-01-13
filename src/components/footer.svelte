@@ -6,7 +6,6 @@
     <div class="inner">
         <h1>Contact Your Representatives</h1>
             <h2>California Costal Commison</h2>
-            <h3><a href="https://docs.google.com/document/d/18GzjsAAAoeVEBP7dWNe5vJUpCHzTA2KvVbRPXD4noCI/view">(Sample Email)</a></h3>
             <ul>
                 <li>Meagan Harmon - Meagan.Harmon@coastal.ca.gov</li>
                 <li>Roberto Uranga - Roberto.Uranga@coastal.ca.gov</li>

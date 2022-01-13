@@ -107,7 +107,7 @@
     }
 
     .route-image {
-        height: 400px;
+        height: auto;
         width: 100%;
         background: white;
         border: 1px solid white;
