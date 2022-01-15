@@ -1504,7 +1504,7 @@ var app = (function () {
     	let div0;
     	let h2;
     	let t3;
-    	let ul1;
+    	let ul2;
     	let li2;
     	let strong0;
     	let t5;
@@ -1516,13 +1516,17 @@ var app = (function () {
     	let t8;
     	let a1;
     	let t10;
-    	let li3;
+    	let li4;
     	let strong1;
     	let t12;
-    	let t13;
-    	let li4;
+    	let ul1;
+    	let li3;
     	let strong2;
+    	let t14;
     	let t15;
+    	let li5;
+    	let strong3;
+    	let t17;
 
     	const block = {
     		c: function create() {
@@ -1535,7 +1539,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "Upcoming Meetings:";
     			t3 = space();
-    			ul1 = element("ul");
+    			ul2 = element("ul");
     			li2 = element("li");
     			strong0 = element("strong");
     			strong0.textContent = "January 18, 2022";
@@ -1550,15 +1554,20 @@ var app = (function () {
     			a1 = element("a");
     			a1.textContent = "PublicComment@ci.carpinteria.ca.us";
     			t10 = space();
-    			li3 = element("li");
+    			li4 = element("li");
     			strong1 = element("strong");
     			strong1.textContent = "January 20, 2022";
-    			t12 = text(" - Santa Barbara County Associated Governments hearing for project review");
-    			t13 = space();
-    			li4 = element("li");
+    			t12 = text(" - Santa Barbara County Associated Governments hearing for project review\n                    ");
+    			ul1 = element("ul");
+    			li3 = element("li");
     			strong2 = element("strong");
-    			strong2.textContent = "March 2022";
-    			t15 = text(" - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)");
+    			strong2.textContent = "Location:";
+    			t14 = text(" Santa Barbara County Supervisor's Hearing Room, 105 E. Anapamu Street, Santa Barabara, CA 93101");
+    			t15 = space();
+    			li5 = element("li");
+    			strong3 = element("strong");
+    			strong3.textContent = "March 2022";
+    			t17 = text(" - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)");
     			attr_dev(h1, "class", "svelte-16vyfci");
     			add_location(h1, file$1, 5, 4, 101);
     			attr_dev(h2, "class", "svelte-16vyfci");
@@ -1578,12 +1587,17 @@ var app = (function () {
     			add_location(li2, file$1, 11, 16, 292);
     			attr_dev(strong1, "class", "svelte-16vyfci");
     			add_location(strong1, file$1, 18, 20, 1558);
-    			add_location(li3, file$1, 18, 16, 1554);
     			attr_dev(strong2, "class", "svelte-16vyfci");
-    			add_location(strong2, file$1, 19, 20, 1691);
-    			add_location(li4, file$1, 19, 16, 1687);
-    			attr_dev(ul1, "class", "meetings-list svelte-16vyfci");
-    			add_location(ul1, file$1, 10, 12, 249);
+    			add_location(strong2, file$1, 20, 28, 1735);
+    			add_location(li3, file$1, 20, 24, 1731);
+    			attr_dev(ul1, "class", "sublist svelte-16vyfci");
+    			add_location(ul1, file$1, 19, 20, 1686);
+    			add_location(li4, file$1, 18, 16, 1554);
+    			attr_dev(strong3, "class", "svelte-16vyfci");
+    			add_location(strong3, file$1, 23, 20, 1931);
+    			add_location(li5, file$1, 23, 16, 1927);
+    			attr_dev(ul2, "class", "meetings-list svelte-16vyfci");
+    			add_location(ul2, file$1, 10, 12, 249);
     			attr_dev(div0, "class", "info-box-inner");
     			add_location(div0, file$1, 8, 8, 168);
     			attr_dev(div1, "class", "info-box svelte-16vyfci");
@@ -1603,8 +1617,8 @@ var app = (function () {
     			append_dev(div1, div0);
     			append_dev(div0, h2);
     			append_dev(div0, t3);
-    			append_dev(div0, ul1);
-    			append_dev(ul1, li2);
+    			append_dev(div0, ul2);
+    			append_dev(ul2, li2);
     			append_dev(li2, strong0);
     			append_dev(li2, t5);
     			append_dev(li2, ul0);
@@ -1614,14 +1628,18 @@ var app = (function () {
     			append_dev(ul0, li1);
     			append_dev(li1, t8);
     			append_dev(li1, a1);
-    			append_dev(ul1, t10);
+    			append_dev(ul2, t10);
+    			append_dev(ul2, li4);
+    			append_dev(li4, strong1);
+    			append_dev(li4, t12);
+    			append_dev(li4, ul1);
     			append_dev(ul1, li3);
-    			append_dev(li3, strong1);
-    			append_dev(li3, t12);
-    			append_dev(ul1, t13);
-    			append_dev(ul1, li4);
-    			append_dev(li4, strong2);
-    			append_dev(li4, t15);
+    			append_dev(li3, strong2);
+    			append_dev(li3, t14);
+    			append_dev(ul2, t15);
+    			append_dev(ul2, li5);
+    			append_dev(li5, strong3);
+    			append_dev(li5, t17);
     		},
     		p: noop,
     		i: noop,

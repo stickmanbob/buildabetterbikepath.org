@@ -16,7 +16,11 @@
                             PublicComment@ci.carpinteria.ca.us</a></li>
                     </ul>
                 </li>
-                <li><strong>January 20, 2022 </strong> - Santa Barbara County Associated Governments hearing for project review</li>
+                <li><strong>January 20, 2022 </strong> - Santa Barbara County Associated Governments hearing for project review
+                    <ul class="sublist">
+                        <li><strong>Location:</strong> Santa Barbara County Supervisor's Hearing Room, 105 E. Anapamu Street, Santa Barabara, CA 93101</li>
+                    </ul>
+                </li>
                 <li><strong>March 2022</strong> - Santa Barbara County Planning Comission hearing for project review, will determine if project will get a county coastal permit (date TBD)</li>
             </ul>
         </div>
